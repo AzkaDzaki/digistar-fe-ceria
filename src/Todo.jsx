@@ -1,5 +1,5 @@
 // TodoApp.js
-import  { useState } from 'react';
+import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addTodo, removeTodo } from './services/todo/actions';
 
@@ -31,7 +31,8 @@ function TodoApp() {
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>
-            {todo.text} <button onClick={() => handleRemoveTodo(todo.id)}>Remove</button>
+            {todo.text}{' '}
+            <button onClick={() => handleRemoveTodo(todo.id)}>Remove</button>
           </li>
         ))}
       </ul>

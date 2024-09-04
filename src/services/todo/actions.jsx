@@ -1,4 +1,4 @@
-// actions.js 
+// actions.js
 // CRUD actions for todo
 // type dan payload adalah standar dari redux actions
 // type adalah tipe aksi yang akan dilakukan
