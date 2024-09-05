@@ -7,6 +7,8 @@ import store from './store/store.jsx';
 // import TodoApp from './pages/Todo.jsx';
 import Wallet from './pages/Wallet.jsx';
 
+console.log(import.meta.env.VITE_BASE_URL);
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
